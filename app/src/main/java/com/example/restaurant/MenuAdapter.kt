@@ -28,7 +28,8 @@ class MenuAdapter(private val menu: List<MenuItem>) :
         holder.ivImage.setImageResource(currentItem.imageID)
         holder.tvName.text = currentItem.name
         holder.tvDescription.text = currentItem.description
-        holder.tvPrice.text = currentItem.price.toString()
+        val priceString = "${currentItem.price} kr"
+        holder.tvPrice.text = priceString
     }
 
     override fun getItemCount(): Int {
