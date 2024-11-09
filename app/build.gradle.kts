@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.restaurant"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.restaurant"
@@ -33,10 +33,12 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+   buildFeatures {
+       viewBinding = true
+   }
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
