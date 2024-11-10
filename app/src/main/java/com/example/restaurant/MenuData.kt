@@ -23,7 +23,7 @@ val starters =
 
 
 val mainCourses = listOf(
-    MenuItem.MenuTitle("Main"),
+    MenuItem.MenuTitle("Main courses"),
     MenuItem.FoodItem(
         R.drawable.img_main_tournedos, "Tournedos",
         "The best meat you can get.",
@@ -43,7 +43,7 @@ val mainCourses = listOf(
 )
 
 val desserts = listOf(
-    MenuItem.MenuTitle("Dessert"),
+    MenuItem.MenuTitle("Desserts"),
     MenuItem.FoodItem(
         R.drawable.img_dessert_pannacotta,
         "Panna cotta",

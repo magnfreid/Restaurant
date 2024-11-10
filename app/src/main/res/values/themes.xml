@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Restaurant" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/customPrimary</item>
-        <item name="colorSecondary">@color/customSecondary</item>
+        <item name="fontFamily">@font/special_elite</item>
     </style>
 
     <style name="Theme.Restaurant" parent="Base.Theme.Restaurant" />
