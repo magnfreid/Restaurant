@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="customPrimary">#B99E8B</color>
-    <color name="menuTitleColor">#E8D9CE</color>
+    <color name="customPrimary">#C4B99E8B</color>
+    <color name="menuTitleColor">#EBE3DD</color>
+    <color name="shadowColor">#B0682F</color>
 </resources>

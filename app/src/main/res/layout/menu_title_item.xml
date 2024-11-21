@@ -8,15 +8,20 @@
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv_menu_title"
         android:layout_width="wrap_content"
-        android:textSize="26sp"
-        android:layout_marginVertical="10dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/menuTitleColor"
+        android:layout_marginVertical="10dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
         android:textAlignment="center"
+        android:textColor="@color/menuTitleColor"
+        android:textSize="26sp"
+        app:fontFamily="@font/flavors"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Dessert"/>
+        tools:text="Dessert" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
